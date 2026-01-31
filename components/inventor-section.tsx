@@ -36,7 +36,7 @@ export function InventorSection({ setCurrentView }: InventorSectionProps) {
           </div>
 
           <h2 className="mb-2 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Muhammad Burhan Shahzad
+            Muhammad Burhan Shahzad - The Vsionary
           </h2>
 
           <p className="mb-2 text-lg text-accent">Inventor & Creator of WML OS</p>
