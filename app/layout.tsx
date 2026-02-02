@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: 'WML OS - The Future of Operating Systems',
   description: 'Experience accessibility like Windows, luxury like Mac, and security like Linux. Created by Muhammad Burhan Shahzad.',
   generator: 'v0.app',
+  viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: [
       {
@@ -39,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
-        {children}
+        <div className="min-h-screen">{children}</div>
         <Analytics />
         <SpeedInsights />
       </body>

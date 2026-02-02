@@ -13,10 +13,10 @@ export default function Home() {
   const [currentView, setCurrentView] = useState<View>("home")
 
   return (
-    <main className="h-screen w-screen overflow-hidden bg-background">
+    <main className="min-h-screen w-full bg-background overflow-y-auto">
       <Navigation currentView={currentView} setCurrentView={setCurrentView} />
       
-      <div className="h-[calc(100vh-64px)] w-full">
+      <div className="w-full">
         {currentView === "home" && <HeroSection setCurrentView={setCurrentView} />}
         {currentView === "product" && <ProductSection setCurrentView={setCurrentView} />}
         {currentView === "inventor" && <InventorSection setCurrentView={setCurrentView} />}

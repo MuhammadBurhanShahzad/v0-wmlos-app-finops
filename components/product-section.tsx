@@ -30,7 +30,8 @@ export function ProductSection({ setCurrentView }: ProductSectionProps) {
                 alt="WML OS CD Box Package"
                 width={400}
                 height={400}
-                className="rounded-lg object-contain"
+                sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 400px"
+                className="rounded-lg object-contain w-full h-auto max-w-xs sm:max-w-sm md:max-w-md"
               />
               <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3 rounded-xl bg-background/90 px-4 py-3 backdrop-blur-sm">
                 <Disc className="h-5 w-5 text-accent" />
