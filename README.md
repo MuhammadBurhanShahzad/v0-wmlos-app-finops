@@ -10,17 +10,9 @@
 This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
 Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-## Deployment
 
-Your project is live at:
 
-**[https://vercel.com/burhans-projects-67cdfacb/v0-wmlos-app-finops](https://vercel.com/burhans-projects-67cdfacb/v0-wmlos-app-finops)**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/bW1TUQN0ZPp](https://v0.app/chat/bW1TUQN0ZPp)**
 
 ## How It Works
 
